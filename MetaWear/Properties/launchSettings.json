@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MetaWear": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}

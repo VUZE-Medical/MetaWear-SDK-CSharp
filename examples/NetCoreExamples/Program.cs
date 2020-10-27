@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace NetCoreExamples {
     class Program {
-        static void Main(string[] args) {
-            MainAsync(args).Wait();
+        static async Task Main(string[] args) 
+        {
+            await MainAsync(args);
         }
 
         private static async Task MainAsync(string[] args) {

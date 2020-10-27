@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "NetCoreExamples": {
+      "commandName": "Project",
+      "commandLineArgs": "NetCoreExamples.LedController"
+    }
+  }
+}

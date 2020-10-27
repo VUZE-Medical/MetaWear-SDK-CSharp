@@ -96,6 +96,9 @@ $tf/
 # Guidance Automation Toolkit
 *.gpState
 
+# local hsitory files
+.vshistory/
+
 # ReSharper is a .NET coding add-in
 _ReSharper*/
 *.[Rr]e[Ss]harper
@@ -258,3 +261,10 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/.vshistory/MetaWear-SDK-CSharp.sln
+/BLEMetawear/.vshistory
+/examples/.vshistory/MetaWear Tutorials.sln
+/examples/BtleDeviceScanner/.vshistory/ScannerPage.xaml.cs
+/examples/NetCoreExamples/.vshistory
+/examples/RealTimeGraph/.vshistory
+/examples/TestMegaWearWpf/.vshistory

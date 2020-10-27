@@ -808,7 +808,8 @@ namespace MbientLab.MetaWear.Impl {
                     instantiateModule((Module)it, (ModuleInfo)info[it]);
                 }
 
-                if (persistent.modules.TryGetValue(typeof(ILogging).FullName, out var logging)) {
+                if (persistent.modules.TryGetValue(typeof(ILogging).FullName, out var logging))
+                {
                     await (logging as Logging).QueryTimeAsync();
                 }
 

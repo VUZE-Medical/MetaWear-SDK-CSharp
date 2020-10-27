@@ -16,13 +16,22 @@ namespace RealTimeGraph {
             InitializeComponent();
         }
 
-        protected override async void OnNavigatedTo(NavigationEventArgs e) {
+        protected override async void OnNavigatedTo(NavigationEventArgs e)
+        {
             base.OnNavigatedTo(e);
 
-            if (Frame.BackStack.Count == 0) {
+            if (Frame.BackStack.Count == 0)
+            {
                 await CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () => Frame.Navigate(typeof(ScannerPage),
                     new ScanConfig(typeof(LineGraph))));
             }
+
+
+            //if (Frame.BackStack.Count == 0)
+            //{
+            //    await CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () => Frame.Navigate(typeof(ScannerPage),
+            //        new ScanConfig(typeof(AngleViewPage))));
+            //}
         }
     }
 }

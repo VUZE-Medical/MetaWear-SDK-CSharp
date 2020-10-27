@@ -276,6 +276,8 @@ namespace MbientLab.MetaWear.Impl {
         }
 
         internal async Task QueryTimeAsync() {
+            ///remove
+            return;
             queryTimeTask = new TimedTask<bool>();
             await queryTimeTask.Execute("Failed to receive current time tick within {0}ms", bridge.TimeForResponse, 
                 () => bridge.sendCommand(new byte[] { (byte)LOGGING, Util.setRead(TIME) }));

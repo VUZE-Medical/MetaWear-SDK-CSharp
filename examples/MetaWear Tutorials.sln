@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeFall Detector", "FreeFall Detector\FreeFall Detector.csproj", "{109D4431-95C2-439B-9595-575E06DB74FD}"
 EndProject
@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarterApp", "StarterApp\St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeGraph", "RealTimeGraph\RealTimeGraph.csproj", "{75BB2D79-7921-46FC-B41A-0DFCCBE14112}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreExamples", "NetCoreExamples\NetCoreExamples.csproj", "{8D727A85-445B-407B-A436-A871B6B428CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreExamples", "NetCoreExamples\NetCoreExamples.csproj", "{8D727A85-445B-407B-A436-A871B6B428CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMegaWearWpf", "TestMegaWearWpf\TestMegaWearWpf.csproj", "{590CEEFF-966B-4A7F-B2D4-CD9767986746}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -107,6 +109,22 @@ Global
 		{8D727A85-445B-407B-A436-A871B6B428CB}.Release|x64.Build.0 = Release|Any CPU
 		{8D727A85-445B-407B-A436-A871B6B428CB}.Release|x86.ActiveCfg = Release|Any CPU
 		{8D727A85-445B-407B-A436-A871B6B428CB}.Release|x86.Build.0 = Release|Any CPU
+		{590CEEFF-966B-4A7F-B2D4-CD9767986746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590CEEFF-966B-4A7F-B2D4-CD9767986746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590CEEFF-966B-4A7F-B2D4-CD9767986746}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{590CEEFF-966B-4A7F-B2D4-CD9767986746}.Debug|ARM.Build.0 = Debug|Any CPU
+		{590CEEFF-966B-4A7F-B2D4-CD9767986746}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{590CEEFF-966B-4A7F-B2D4-CD9767986746}.Debug|x64.Build.0 = Debug|Any CPU
+		{590CEEFF-966B-4A7F-B2D4-CD9767986746}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{590CEEFF-966B-4A7F-B2D4-CD9767986746}.Debug|x86.Build.0 = Debug|Any CPU
+		{590CEEFF-966B-4A7F-B2D4-CD9767986746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590CEEFF-966B-4A7F-B2D4-CD9767986746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{590CEEFF-966B-4A7F-B2D4-CD9767986746}.Release|ARM.ActiveCfg = Release|Any CPU
+		{590CEEFF-966B-4A7F-B2D4-CD9767986746}.Release|ARM.Build.0 = Release|Any CPU
+		{590CEEFF-966B-4A7F-B2D4-CD9767986746}.Release|x64.ActiveCfg = Release|Any CPU
+		{590CEEFF-966B-4A7F-B2D4-CD9767986746}.Release|x64.Build.0 = Release|Any CPU
+		{590CEEFF-966B-4A7F-B2D4-CD9767986746}.Release|x86.ActiveCfg = Release|Any CPU
+		{590CEEFF-966B-4A7F-B2D4-CD9767986746}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

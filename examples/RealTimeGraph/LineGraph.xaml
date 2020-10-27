@@ -16,9 +16,11 @@
             <RowDefinition Height="100*" />
             <RowDefinition Height="850*" />
             <RowDefinition Height="50*" />
+            <RowDefinition Height="50*" />
         </Grid.RowDefinitions>
         <ToggleSwitch x:Name="streamSwitch" Header="Stream" HorizontalAlignment="Stretch" Margin="10,10,10,0"  Toggled="streamSwitch_Toggled"/>
         <oxy:PlotView Model="{Binding MyModel}" Grid.Row="1"/>
-        <Button x:Name="back" Content="Back" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Click="back_Click" Grid.Row="2"/>
+        <TextBlock x:Name="GyroText" Text="None"  Foreground="Green" VerticalAlignment="Stretch" HorizontalAlignment="Center" Grid.Row="2"/>
+        <Button x:Name="back" Content="Back" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Click="back_Click" Grid.Row="3"/>
     </Grid>
 </Page>

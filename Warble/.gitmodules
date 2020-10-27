@@ -1,0 +1,3 @@
+[submodule "deps/libblepp"]
+	path = deps/libblepp
+	url = https://github.com/edrosten/libblepp
